@@ -1,5 +1,5 @@
 # Scaler Learner Clustering & Company Profiling
-## Problem Statement
+## Objective
 Scaler, a tech-versity by InterviewBit, offers advanced computer science and data science courses aimed at upskilling software professionals. As part of the analytics team, your task is to profile the best companies and job positions using learner data.
 
 The goal is to perform manual clustering and unsupervised learning techniques (K-Means, Hierarchical Clustering) to identify:
@@ -8,10 +8,9 @@ The goal is to perform manual clustering and unsupervised learning techniques (K
 - High-performing roles or departments
 - Company-wise pay structures
 - Learners outperforming their peers
+
 ## Dataset Information
-
 ### Features:
-
   - Unnamed: 0: Index
   
   - Email_hash: Anonymized learner identifier
@@ -27,7 +26,7 @@ The goal is to perform manual clustering and unsupervised learning techniques (K
   - CTC_updated_year: Year of latest CTC update
 
 ## Project Workflow
-### 1. Exploratory Data Analysis (EDA)
+### 1. Exploratory Data Analysis (EDA):
   - Structure & summary statistics
   
   - Unique emails and frequency analysis
@@ -38,7 +37,7 @@ The goal is to perform manual clustering and unsupervised learning techniques (K
   
   - Duplicate record handling
 
-### 2. Feature Engineering
+### 2. Feature Engineering:
   - Creation of Years_of_Experience = CTC_updated_year - orgyear
   
   - Manual Clustering based on:
@@ -49,7 +48,7 @@ The goal is to perform manual clustering and unsupervised learning techniques (K
     
     - Years of Experience
 
-### 3. Summary Statistics & Flags
+### 3. Summary Statistics & Flags:
   - 5-point summary (mean, median, min, max, count) of CTC grouped by:
     
     - Company
@@ -66,7 +65,7 @@ The goal is to perform manual clustering and unsupervised learning techniques (K
   
   - Tier: Company-level flag
 
-### 4. 🏅 Manual Clustering Insights
+### 4. 🏅 Manual Clustering Insights:
   - Top 10 high-tier earners (Tier 1)
   
   - Top/Bottom 10 learners in Data Science (Class 1 / Class 3)
@@ -77,7 +76,7 @@ The goal is to perform manual clustering and unsupervised learning techniques (K
   
   - Top 2 high-paying job positions per company
 
-### 5. 🤖 Unsupervised Clustering
+### 5. 🤖 Unsupervised Clustering:
   - Label Encoding & One-Hot Encoding
   
   - Standardization of data
@@ -104,7 +103,7 @@ The goal is to perform manual clustering and unsupervised learning techniques (K
   
   - Help companies align compensation with market trends
 
-## Technologies Used:
+## Technologies Used
 - Language: Python 3.x
 
 - Libraries:
